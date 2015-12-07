@@ -1,21 +1,6 @@
-#dmSecure
-
-Demo Can be found at http://www.youtube.com/watch?v=KpysTusTZrw&feature=youtu.be
-
-> This code is brings both shame and pride to me.
-
-Yes the code is not our best and has redundancies. But Openssl does not have the best of documentation
-for guys whose c++ has gone a little rusty and dwell in the Python-land most of the time these days. 
-
-Our attempt at making your file-sharing secure.
-* AES Encryption for your files.
-* Integrity assured using sha2 based mac.
-* Share the public-key with friends.
-* Share files with friends and foes.
-* Filenames on the servers are human-readable hashes of original filenames.
 
 ###Building the tool.
-The utility contains mainly 3 files. authorize, recover, preprocess.
+This module contains 3 files. authorize, recover, preprocess.
 While an executable is included, the following flags must be set to build each of the files, if a build is desired:
 * fpermissive
 * lss
